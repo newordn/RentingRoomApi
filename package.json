@@ -1,0 +1,25 @@
+{
+  "name": "rentingroomapi",
+  "version": "1.0.0",
+  "description": "The api for the mobile app renting room",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newordn/RentingRoomApi.git"
+  },
+  "keywords": [
+    "Location",
+    "Chambre",
+    "Maroua",
+    "Etudiant"
+  ],
+  "author": "Neword",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newordn/RentingRoomApi/issues"
+  },
+  "homepage": "https://github.com/newordn/RentingRoomApi#readme"
+}
