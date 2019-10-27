@@ -3,6 +3,7 @@ var Schema = mongoose.Schema;
 
 var ChambreSchema = new Schema({
   localisation:  String,
+  description: String,
   dimension: String,
   quartier:   String,
   estCimenter:   Boolean,
