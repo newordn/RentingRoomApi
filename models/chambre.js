@@ -13,6 +13,7 @@ var ChambreSchema = new Schema({
   estModerne:   Boolean,
   prix: Number,
   nombreMois:Number,
+  aCaution:Number,
   aDoucheInterne:   Boolean,
   utilisateurs: [{type: mongoose.Schema.Types.ObjectId, ref: 'Utilisateur'}],
   creerLe: { type: Date, default: Date.now },
