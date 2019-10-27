@@ -11,6 +11,7 @@ var ChambreSchema = new Schema({
   estLibre:   Boolean,
   estPlafonner:   Boolean,
   estModerne:   Boolean,
+  price: Number,
   aDoucheInterne:   Boolean,
   utilisateurs: [{type: mongoose.Schema.Types.ObjectId, ref: 'Utilisateur'}],
   creerLe: { type: Date, default: Date.now },
