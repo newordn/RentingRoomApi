@@ -3,6 +3,7 @@ var Schema = mongoose.Schema;
 
 var ChambreSchema = new Schema({
   localisation:  String,
+  description: String,
   dimension: String,
   quartier:   String,
   estCimenter:   Boolean,
@@ -10,6 +11,9 @@ var ChambreSchema = new Schema({
   estLibre:   Boolean,
   estPlafonner:   Boolean,
   estModerne:   Boolean,
+  prix: Number,
+  nombreMois:Number,
+  aCaution:Number,
   aDoucheInterne:   Boolean,
   utilisateurs: [{type: mongoose.Schema.Types.ObjectId, ref: 'Utilisateur'}],
   creerLe: { type: Date, default: Date.now },
