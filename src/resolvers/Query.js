@@ -1,7 +1,11 @@
 
-    function info(){
-        return `Welcome to renting room api`
+    function chambers(parent,args,context){
+        return context.prisma.chambers()
+    }
+    
+    function users(parent,args,context){
+        return context.prisma.users()
     }
     module.exports={
-        info
+        chambers,users
     }
