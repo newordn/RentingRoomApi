@@ -1,6 +1,7 @@
 type Query {
     chambers: [Chamber!]!
     users: [User!]!
+    chamber(id:String): Chamber
 }
 type Mutation {
     signup(name:String!,email:String!,matricule:String!,filiere:String!,option:String!,password:String!):AuthPayload!
