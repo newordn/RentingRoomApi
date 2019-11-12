@@ -4,6 +4,7 @@ type User {
     name: String!
     email: String! @unique
     matricule: String! @unique
+    phone: String! @unique
     filiere: String! 
     option:String!
     password: String!
